@@ -11,7 +11,7 @@ The goal is to clean and preprocess the Titanic dataset to make it ready for bui
 1. **Loading the Data**
 
    - The dataset (`Titanic-Dataset.csv`) is loaded using `pandas`.
-   - Libraries used: `pandas`, `numpy`, `matplotlib`, and `seaborn`.
+   - Libraries used: `pandas`, `numpy`, `matplotlib`, `seaborn` and `scikit-learn`.
 
 2. **Exploring the Data**
 
@@ -44,5 +44,5 @@ To run the notebook, you need:
 Install them using:
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn scikit-learn
 ```
