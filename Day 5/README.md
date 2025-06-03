@@ -39,6 +39,5 @@ This project implements a machine learning analysis to predict heart disease usi
 
 ## Notes and Improvements
 
-- **Missing Code**: The notebook lacks definitions for `model` and `model1` and code to visualize the decision tree. Consider adding these for a comprehensive analysis.
 - **Overfitting Analysis**: A validation curve for `max_depth` is present, but the findings are not applied to tune the Decision Tree Classifier. Use the optimal `max_depth` from the curve to improve model generalization.
 - **Data Quality**: No missing values were detected (`df.isnull().sum()`), but the perfect cross-validation score (1.0) for `model` suggests potential overfitting or data leakage.
